@@ -27,10 +27,4 @@ streamlit run app.py
 
 Edit `config.json` to customize column mappings and date formats.
 
-## CLI Version
 
-```bash
-python main.py
-```
-
-Original command-line version still available.
