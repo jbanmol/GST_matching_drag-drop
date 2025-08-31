@@ -1,0 +1,30 @@
+{
+  "columns": {
+    "company": {
+      "gstin": "GSTIN of supplier",
+      "party_name": "Party Name",
+      "accounting_doc": "Accounting Document No",
+      "invoice_no": "Invoice No",
+      "invoice_date": "Invoice Date",
+      "cgst": "CGST Amount",
+      "sgst": "SGST Amount",
+      "igst": "IGST Amount"
+    },
+    "portal": {
+      "gstin": "GSTIN of supplier",
+      "invoice_no": "Invoice number",
+      "invoice_date": "Invoice Date",
+      "cgst": "Central Tax(₹)",
+      "sgst": "State/UT Tax(₹)",
+      "igst": "Integrated Tax(₹)"
+    }
+  },
+  "date_formats": {
+    "company": "%d-%m-%Y",
+    "portal": "%d/%m/%Y"
+  },
+  "matching": {
+    "default_buffer_size": 0,
+    "case_sensitive": false
+  }
+}
